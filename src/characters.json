@@ -32,7 +32,7 @@
     {
       "id": 6,
       "name": "Pounce",
-      "image": "./images/scratch.png",
+      "image": "./images/pounce.png",
       "clicked": false
     },
     {
