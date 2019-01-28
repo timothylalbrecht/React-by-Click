@@ -1,11 +1,12 @@
 import React from "react";
 import "./Nav.css";
+import logo from "./logo.png";
 
 const Nav = props => (
   <nav>
     <ul>
       <li className="brand">
-        <a href="/clicky-game/">{props.title}</a>
+        <img src={logo} alt="Logo" />
       </li>
 
       <li id="rw">{props.rightWrong}</li>
