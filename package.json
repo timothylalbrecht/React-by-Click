@@ -1,5 +1,5 @@
 {
-  "name": "clicky",
+  "name": "ReactClick",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
   },
-  "homepage": "https://timothylalbrecht.github.io/React-by-Click/",
+  "homepage": "https://timothylalbrecht.github.io/ReactClick/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
