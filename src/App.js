@@ -1,11 +1,17 @@
 import React, { Component } from "react";
+
+// Import Components
 import Card from "./components/Card";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
-// import Title from "./components/Title";
-import Container from "./Container";
 import Row from "./Row";
 import Column from "./Column";
+import Container from "./Container";
+
+// Removed title for a cleaner look 
+// import Title from "./components/Title";
+
+// Data and Styles
 import characters from "./characters.json";
 import "./App.css";
 
@@ -19,7 +25,6 @@ function shuffleCharacters(array) {
 };
 
 class App extends Component {
-  	// Set this.state
   	state = {
     	characters,
     	currentScore: 0,
@@ -48,7 +53,7 @@ class App extends Component {
       this.setState({ topScore: newScore });
     }
     else if (newScore === 12) {
-      this.setState({ rightWrong: "You win!" });
+      this.setState({ rightWrong: "You Win!" });
     }
     this.handleShuffle();
   };
